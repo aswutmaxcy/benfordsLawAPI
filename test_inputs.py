@@ -49,5 +49,4 @@ def test_resp_is_BenfordResponse():
 
     for item in resp_model.percentage_matrix:
         assert type(item) is list
-        print(type(item))
-        print(item)
+        
